@@ -1,0 +1,21 @@
+<div class="calculadora">
+  <div class="pantalla">{{ display }}</div>
+  <button class="btn" (click)="clear()">C</button>
+  <button class="btn" (click)="backspace()">←</button>
+  <button class="btn" (click)="append('/')">/</button>
+  <button class="btn" (click)="append('*')">*</button>
+  <button class="btn" (click)="append('7')">7</button>
+  <button class="btn" (click)="append('8')">8</button>
+  <button class="btn" (click)="append('9')">9</button>
+  <button class="btn" (click)="append('-')">-</button>
+  <button class="btn" (click)="append('4')">4</button>
+  <button class="btn" (click)="append('5')">5</button>
+  <button class="btn" (click)="append('6')">6</button>
+  <button class="btn" (click)="append('+')">+</button>
+  <button class="btn" (click)="append('1')">1</button>
+  <button class="btn" (click)="append('2')">2</button>
+  <button class="btn" (click)="append('3')">3</button>
+  <button class="btn" (click)="calculate()">=</button>
+  <button class="btn" (click)="append('0')">0</button>
+  <button class="btn" (click)="append('.')">.</button>
+</div>

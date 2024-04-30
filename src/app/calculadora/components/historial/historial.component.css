@@ -1,0 +1,28 @@
+
+.historial {
+  background-color: rgb(62, 22, 62);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+.historial::before {
+  content: "Historial de operaciones:";
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#borrarHistorial {
+  background-color: rgb(183, 70, 160);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+#borrarHistorial:hover {
+  background-color: rgb(136, 51, 119);
+}
